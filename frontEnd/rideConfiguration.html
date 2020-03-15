@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>ride-configuration</title>
+<!--link href="css/style.css" rel="stylesheet">  Include CSS File Here-->
+<script src="ride.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form action="" method="post" onsubmit = "return validation()">
+<h2>Ride-configuration</h2>
+
+<label>Select Ride :</label>
+    <select id = 'dropdown'>
+        <option value = "">Choose </option>    
+    </select>   
+<button onclick="myFunction()">Click me</button><br><br>
+
+<label>Start Time :</label>
+<input type="number" id="start" name="time" min="1" max="24"><br><br>
+
+<label>End Time :</label>
+<input type="number" id="end" name="time" min="1" max="24"><br><br>
+
+<label>Is Allow Child :</label>
+<input id="cyes" name="child" type="radio" value="yes">
+<label>YES</label>
+<input id="cno" name="child" type="radio" value="no">
+<label>NO</label><br><br>
+
+<label>Is Allow Adult :</label>
+<input id="ayes" name="adult" type="radio" value="yes">
+<label>YES</label>
+<input id="ano" name="adult" type="radio" value="no">
+<label>NO</label><br><br>
+
+<label>Is Allow Senior :</label>
+<input id="syes" name="senior" type="radio" value="yes">
+<label>YES</label>
+<input id="sno" name="senior" type="radio" value="no">
+<label>NO</label><br><br>
+
+<label>Set Ride Amount :</label>
+<input type="number" id="amount" name="amount"><br><br>
+
+<input type="submit" value="Submit">
+<!--button onclick="validation()">Click me</button-->
+</form>
+</div>
+</div>
+</body>
+</html>

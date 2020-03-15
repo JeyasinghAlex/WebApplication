@@ -1,0 +1,18 @@
+body{
+    background-color:skyblue;
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    border: 2x solid black;
+    padding: 10px;
+}
+.container{
+    color: rgb(1, 3, 3);
+}
