@@ -9,7 +9,7 @@ import javax.ws.rs.core.Response;
 
 public class RideDao {
 	
-	public ArrayList<Ride> getRides(){
+	public List<Ride> getRides(){
 		ArrayList<Ride> rides = new ArrayList<>();
 		String query = "select * from rides ";
 		//String ride_details = "select * from ride_details";
